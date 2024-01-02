@@ -1,6 +1,6 @@
 ---
 title: "Automobile Data Analysis"
-author: "韩意朝"
+author: "Hikari"
 date: 2024-01-01T21:13:14-05:00
 categories: ["R"]
 tags: ["R Markdown", "plot", "regression"]
