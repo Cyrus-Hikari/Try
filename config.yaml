@@ -21,10 +21,13 @@ menu:
       url: "/about/"
       weight: 2
     - name: "帖子"
-      url: "/categories/"
+      url: "/post/"
       weight: 3
     - name: "标签"
       url: "/tags/"
+      weight: 4
+    - name: "随笔"
+      url: "/pen/"
       weight: 4
 
 

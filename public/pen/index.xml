@@ -1,27 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Hugo Ivy</title>
-    <link>/</link>
-    <description>Recent content in Home on Hugo Ivy</description>
+    <title>Pens on Hugo Ivy</title>
+    <link>/pen/</link>
+    <description>Recent content in Pens on Hugo Ivy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jan 2024 21:13:14 -0500</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Automobile Data Analysis</title>
-      <link>/post/2024/01/01/automobile-data-analysis/</link>
-      <pubDate>Mon, 01 Jan 2024 21:13:14 -0500</pubDate>
-      <guid>/post/2024/01/01/automobile-data-analysis/</guid>
-      <description>引言 汽车行业一直以来都是工业和经济领域中备受关注的一个重要领域。对于消费者来说，购车决策不仅涉及到个体交通需求的满足，更关乎投资回报和性价比的考量。为了更深入地探讨和理解汽车市场中的价格形成机制以及性能与价格之间的关系，我们借助了一个经典的数据集——1985 Auto Imports Database。&#xA;数据来源：http://archive.ics.uci.edu/ml/datasets/Automobile&#xA;该数据集源自多方数据渠道，包括1985年Model Import Car and Truck Specifications，个人汽车手册以及保险事故报告等，为我们提供了丰富而全面的汽车信息。通过对汽车的各项特征、保险风险评级以及相对平均损失等数据进行综合分析，我们将尝试建立几个分类模型或回归模型，以汽车详细信息作为输入来准确预测整车的档次或价格。&#xA;摘要 本数据分析报告旨在深入探讨1985年汽车数据集，以揭示其中隐藏的信息和模式。首先，我们进行了数据清洗与整备，包括详细了解数据集信息、预处理数据以及处理缺失值。这确保了我们有一个干净、完整的数据集来进行后续分析。&#xA;在探索性数据分析阶段，我们通过直方图、箱线图和小提琴图等可视化手段，深入研究了响应变量”价格”的分布特征，对不同类别变量进行了对比分析，并通过相关性热图和线性矩阵图揭示了数值型变量之间的关系。&#xA;进一步进行了假设检验，分析了分类问题和回归问题。在分类问题中，我们通过数据预处理和模型性能比较，深入挖掘了不同模型的表现，并通过ROC曲线评估其分类能力。在回归问题中，通过光滑样条拟合、局部多项式和广义可加模型，我们试图找到对”价格”影响最显著的因素。&#xA;最终，通过综合分析和总结，我们得出了对数据集的深刻理解，为进一步研究汽车性能和市场趋势提供了有力的参考。&#xA;数据清洗与整备 library(tidyverse) #核心&#xD;library(tidymodels)&#xD;library(readxl) #读Excel&#xD;library(writexl)#写Excel&#xD;# 绘图用&#xD;library(patchwork) # 将几张图绘制在一起&#xD;library(plotly) # heatmaply前置&#xD;library(viridis) # heatmaply前置&#xD;library(heatmaply) #热图&#xD;library(car) # scatterplotMatrix函数&#xD;library(RColorBrewer) #颜色包&#xD;library(ggpubr)&#xD;#因子分析&#xD;library(psych)&#xD;#相关系数矩阵&#xD;library(corrplot)&#xD;library(tidytext)&#xD;library(tidyverse)&#xD;library(tidymodels)&#xD;library(pheatmap)&#xD;library(corrr)&#xD;library(shiny)&#xD;library(readxl)&#xD;library(writexl)&#xD;library(patchwork) # 将几张图绘制在一起&#xD;library(plotly) # heatmaply前置&#xD;library(viridis) # heatmaply前置&#xD;library(heatmaply) #热图&#xD;library(car) # scatterplotMatrix函数&#xD;library(RColorBrewer) #颜色包&#xD;数据集详细信息 保险风险等级：-3、-2、-1、0、1、2、3 归一化损失：从 65 到 256 连续 品牌： 阿尔法罗梅罗、奥迪、宝马、雪佛兰、道奇、本田、五十铃、捷豹、马自达、梅赛德斯-奔驰、水银、三菱、日产、标致、普利茅斯、保时捷、雷诺、萨博、斯巴鲁、丰田、大众、沃尔沃 燃料类型：柴油、汽油 增压机类型：标准，涡轮 车门数：四门、二门 车身风格：硬顶车、旅行车、轿车、掀背车、敞篷车 驱动轮：四轮驱动、前轮驱动、后轮驱动 发动机位置： 前部、后部 轴距：连续86.</description>
-    </item>
-    <item>
-      <title>My personal website</title>
-      <link>/about/</link>
-      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>/about/</guid>
-      <description>This Hugo theme was ported from Ivy, a minimalist website generator built in Python. I don&amp;rsquo;t have time to document this theme. You have to read the source code to understand what it can do. All I can say for now is that I love it. It is clean, minimal, and responsive.&#xA;I hope you will enjoy this theme. The source code is on Github. Happy hacking!</description>
-    </item>
+    <lastBuildDate>Sun, 19 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/pen/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>对于中大防疫政策的体会</title>
       <link>/pen/%E5%AF%B9%E4%BA%8E%E4%B8%AD%E5%A4%A7%E9%98%B2%E7%96%AB%E6%94%BF%E7%AD%96%E7%9A%84%E4%BD%93%E4%BC%9A/</link>
@@ -65,13 +51,6 @@
       <description>计算机技术在现代地球科学中的重要性&#xA;看到论文题目，相信大多数同学和我一样茫然。“课表有，我便学”的想法几乎成了当代大学生的常态。而当我真正沉下心来思考为什么要学，才发觉学习计算机技术的重要性。&#xA;乍一看风牛马不相及，学了编程怎么能帮上挖矿？&#xA;这里想先讲一个古老的学高数与买菜的故事：为啥要学高数？是要对菜价求导，还是要用微积分买菜？当代大学生十以内加减法完败给市场卖菜大妈，不禁令人嗟叹高数我学你有何用一说。而对于这个问题，有位数学老师是这样回答的：学高数不能帮你买菜，但能决定你在哪买菜。是在新加坡巴刹菜铺进口，还是在路边小摊和大妈讲价。&#xA;而计算机技术亦是如此，学时不觉如何，用时方知可贵。&#xA;一，计算机技术对于研究人员的作用。&#xA;1.浅尝辄止之前&#xA;就地球科学的现代化程度来讲，几乎所有精密设备都离不开计算机。而学习计算机技术，无疑是建立与之沟通的桥梁，学习与之沟通的语言。拿c语言来说，学了c语言并不一定要去写相关程序，而只要清楚计算机内部怎么运算，便可有效缩短该类仪器上手时间，提高操作效率。并可在某些情况下对简单故障自行排查修正，这是一种难能可贵的技能，而学习计算机技术便可培养我们的这种技能。只有学会了和计算机打交道，才能在日益科技化的地球科学研究中保持更高的效率。&#xA;2.深入学习之后&#xA;当我们的计算机技术足够成熟，便可自己尝试编程，因地制宜属于自己的地质学程序了。如个人制作的oruxmaps和geohelper，功能十分强大，实时GPS经纬和导航路线，岩石倾角倾向走向产状一应俱全且一目了然。离线资源包还解决了网络信号问题。再也无需携带如此多工具，一部手机轻松搞定。而且节省了测量的时间，必然能大大提高同学们野外实习的效率。而这一切的一切，都是成熟的计算机技术带来的。&#xA;3.最终成熟之时&#xA;那么我们不妨设想一种高度理想化的情景，即日后的地质工作者都有着精湛的计算机技术，那时的地质科考工作将会是什么样子！无需大堆沉重的工具，无需返程后繁杂的绘图，而是通过计算机技术，通过特定的程序瞬间进行数据整合与处理，以及后续一键绘图工作。地质科考效率必将大幅度提高。&#xA;二，计算机技术跨区域实时位置信息共享的优越性。&#xA;野外科考怕找不到方向？不慌，计算机技术会有效防止你的迷路。路痴与绝对方向感之间，也许就差一个奥维地图。如此进行多组分头模进考察时，共享位置并保留痕迹便可使行进轨迹，方向，以及覆盖面积等一目了然。有效防止迷路的同时也避免了考察区域的重复，而这一切通过GPS通信技术便可轻松实现。而更加强大的软件已经可以实现基本三维定位，高度误差都不超过半米，有效提高了立体地形考察的精度。试想理想情况下，前人若已考察过该地，并将信息记录整合在计算机内进行三维绘图，那么我们再次考察时，便可看到当地的三维半透明投影徐徐展开的盛况，而我们只需要做的便是站在前人的肩膀上裨补阙漏，势必使工作效率与满足感大幅提升。&#xA;三. 关于GPS GIS RS三类地理信息系统（计算机技术成功实现的典例）&#xA;地理信息系统（Geographic Information System或 Geo－Information system，GIS）有时又称为“地学信息系统”。它是一种特定的十分重要的空间信息系统。它是在计算机硬、软件系统支持下，对整个或部分地球表层（包括大气层）空间中的有关地理分布数据进行采集、储存、管理、运算、分析、显示和描述的技术系统。&#xA;许多学科受益于地理信息系统技术。活跃的地理信息系统市场导致了GIS组件的硬件和软件的低成本和持续改进。这些发展反过来导致这项技术在科学、政府、企业和产业等方面更广泛的应用，应用包括房地产、公共卫生、犯罪地图、国防、可持续发展、自然资源、景观建筑、考古学、社区规划、运输和物流。&#xA;四.&#xA;GPS是英文Global Positioning System（全球定位系统）的简称。GPS起始于1958年美国军方的一个项目，1964年投入使用。20世纪70年代，美国陆海空三军联合研制了新一代卫星定位系统GPS 。主要目的是为陆海空三大领域提供实时、全天候和全球性的导航服务，并用于情报搜集、核爆监测和应急通讯等一些军事目的，经过20余年的研究实验，耗资300亿美元，到1994年，全球覆盖率高达98%的24颗GPS卫星星座己布设完成。&#xA;GPS的应用都是基于两个基本服务：&#xA;空间位置服务 ①.定位：如汽车防盗、地面车辆跟踪和紧急救生。&#xA;②.导航：如船舶远洋导航和进港引水、飞机航路引导和进场降落、智能交通、汽车自主导航及导弹制导。&#xA;③测量：主要用于测量时间、速度、及大地测绘，如水下地形测量、地壳形变测量，大坝和大型建筑物变形监测及浮动车数据，利用GPS定期记录车辆的位置和速度信息。从而计算道路的拥堵情况。&#xA;2、时间服务&#xA;①系统同步：如CDMA通信系统和电力系统&#xA;2.遥感（remote sensing）是指非接触的，远距离的探测技术。一般指运用传感器/遥感器对物体的电磁波的辐射、反射特性的探测。遥感是通过遥感器这类对电磁波敏感的仪器，在远离目标和非接触目标物体条件下探测目标地物。&#xA;利用GPS定位卫星，在全球范围内实时进行定位、导航的系统，称为全球卫星定位系统，简称GPS。GPS是由美国国防部研制建立的一种具有全方位、全天候、全时段、高精度的卫星导航系统，能为全球用户提供低成本、高精度的三维位置、速度和精确定时等导航信息，是卫星通信技术在导航领域的应用典范，它极大地提高了地球社会的信息化水平，有力地推动了数字经济的发展。 综上所述，计算机技术对于现代地球科学十分重要，而且随着时间的推移，它的重要性只会与日俱增。因此，如何将计算机技术与地球科学完美有机结合，将是我们这一代地质人的一大努力方向。&#xA;参考资料：&#xA;百度百科-遥感&#xA;百度百科-地理信息系统&#xA;c语言程序设计现代方法第2版&#xA;地球科学概论实验野外实习手册</description>
     </item>
     <item>
-      <title>Hello R Markdown</title>
-      <link>/post/2020/12/01/hello-r-markdown/</link>
-      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
-      <guid>/post/2020/12/01/hello-r-markdown/</guid>
-      <description>R Markdown&#xD;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.&#xA;You can embed an R code chunk like this:&#xA;summary(cars)&#xD;## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
-    </item>
-    <item>
       <title>《菜根谭》读书笔记</title>
       <link>/pen/%E8%8F%9C%E6%A0%B9%E8%B0%AD%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Sat, 28 Nov 2020 00:00:00 +0000</pubDate>
@@ -84,34 +63,6 @@
       <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
       <guid>/pen/%E5%A6%82%E6%AD%A4%E5%A4%A7%E4%B8%80%E7%9B%B8%E5%A3%B0%E7%A8%BF/</guid>
       <description>如此大一&#xA;表演者：XXX XXX&#xA;地球科学与工程学院&#xA;注：1捧2逗&#xA;1：尊敬的老师亲爱的同学们 大家晚上好（12）！&#xA;1：新生应该都熟悉我们……&#xA;2：（突然）同志们好！（敬礼四看观众）（1诧异看一眼2之后）&#xA;1：今天由我们为大家带来一场。。&#xA;2：（突然）同志们辛苦了（1愣）！&#xA;1：（1推2并指场外）走！你今个儿来捣乱了是吧？说相声呢！&#xA;2：哦~ 您就是今晚和我说相声内搭档啊，怎么不和我说早上好呢&#xA;1：不是，因为现在是晚上啊&#xA;2：嗷 那步入正题吧 赶时间 今天我们为大家带来的相声呢 名儿叫《如此大一》1：哎对&#xA;2：今天啊 可真是咱俩的大喜日子啊（巨开心自豪表情）&#xA;1：哎！打住！ 谁和你大喜日子啊&#xA;2：您误会了 我说的是今晚咱们地科师生欢聚一堂 不是大家的喜吗&#xA;1：哦~ 这么个喜啊，那这么个大喜日子，都这么开心是吧，你不得请现场的观众朋友们吃个宵夜？&#xA;2: 那当然可以。大家随便点，价格在三万以下（停顿）&#xA;1：好家伙，三万以下。。。&#xA;2：五块左右&#xA;1：五块，五。。。?&#xA;2：那就不如和大家聊聊 如此大一！啊&#xA;1：嗯 这不戳 要说这中珠大一 给你啥感觉啊？&#xA;2：感觉？ 痛觉算吗？&#xA;1：痛觉？（吃惊）何出此言啊？&#xA;2：回想开学那天啊 洒家一人拖家带口（拖家带口？）啊不不 拖泥带水（1拖泥带水？）不不不 拖着行李（哦拖着行李） 对拖着行李来到了彩虹门&#xA;1：然后呢？&#xA;2：那叫一个挤啊！people mountain people sea!&#xA;1：好家伙 这英语您可别说是咱中大老师教的，否则小心teacher 给你点 color see see&#xA;2：直到我上了小白 体会到了风驰中珠的舒适啊（享受表情）&#xA;1：小白是挺nice的&#xA;2：但还是给我折腾的啊 搬行李上三楼 新生报道 买军训服 对于萌新的我 这些地方可真是随机分布啊（劳累动作）&#xA;1：（赞同）当时我也挺懵&#xA;2：可不是嘛 这不 开学下马威 给我的脚留下深深的痛觉</description>
-    </item>
-    <item>
-      <title>Another Note on A blogdown Tutorial</title>
-      <link>/note/2017/06/14/another-note/</link>
-      <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>/note/2017/06/14/another-note/</guid>
-      <description>I just discovered an awesome tutorial on blogdown written by Alison. I have to admit this is the best blogdown tutorial I have seen so far.</description>
-    </item>
-    <item>
-      <title>A Quick Note on Two Beautiful Websites</title>
-      <link>/note/2017/06/13/a-quick-note/</link>
-      <pubDate>Tue, 13 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>/note/2017/06/13/a-quick-note/</guid>
-      <description>To me, the two most impressive websites based on blogdown are:&#xA;Rob J Hyndman&amp;rsquo;s personal website. Live Free or Dichotomize by Lucy and Nick et al. I&amp;rsquo;m sure there will be more.</description>
-    </item>
-    <item>
-      <title>A Plain Markdown Post</title>
-      <link>/post/2016/02/14/a-plain-markdown-post/</link>
-      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>/post/2016/02/14/a-plain-markdown-post/</guid>
-      <description>This sample post is mainly for blogdown users. If you do not use blogdown, you can skip the first section.&#xA;1. Markdown or R Markdown This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:&#xA;You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.</description>
-    </item>
-    <item>
-      <title>Lorem Ipsum</title>
-      <link>/post/2015/07/23/lorem-ipsum/</link>
-      <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>/post/2015/07/23/lorem-ipsum/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&#xA;Quisque mattis volutpat lorem vitae feugiat.</description>
     </item>
   </channel>
 </rss>
