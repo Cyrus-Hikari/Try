@@ -8,4 +8,3 @@ title: Home
 
 如果你也对R编程感兴趣，可以看一下我的[帖子](/post/)
 
-All pages not under the root directory of the website are listed below. You can also visit the list page of a single section, e.g., [posts](/post/), or [notes](/note/).

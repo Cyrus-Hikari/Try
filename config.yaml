@@ -29,7 +29,7 @@ menu:
 
 
 params:
-  description: "start where you are - use what you have - help who you can"
+  description: "start where you are -     use what you have -     help who you can"
   footer: "&copy; [Yihui Xie](https://yihui.org) 2017-{Year} | [Github](https://github.com/yihui)"
   highlightjsLang: ["latex"]
   highlightjsTheme: "github"
