@@ -1,17 +1,9 @@
 ---
 title: "Automobile Data Analysis"
 author: "韩意朝"
-output:
-  html_document:
-    theme: darkly
-    toc: yes
-    toc_float: yes
-    number_sections: yes
-    code_folding: hide
-    highlight: pygments
-    df_print: paged
-  word_document:
-    toc: yes
+date: 2024-01-02T21:13:14-05:00
+categories: ["R"]
+tags: ["R Markdown", "plot", "regression"]
 ---
 
 <script src="/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
