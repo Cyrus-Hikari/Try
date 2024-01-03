@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Hugo Ivy</title>
+    <title>Home on DataCraft Storyteller</title>
     <link>/</link>
-    <description>Recent content in Home on Hugo Ivy</description>
+    <description>Recent content in Home on DataCraft Storyteller</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jan 2024 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 26 Dec 2023 21:13:14 -0500</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Automobile Data Analysis</title>
-      <link>/post/2024/01/01/automobile-data-analysis/</link>
-      <pubDate>Mon, 01 Jan 2024 21:13:14 -0500</pubDate>
-      <guid>/post/2024/01/01/automobile-data-analysis/</guid>
-      <description>引言 汽车行业一直以来都是工业和经济领域中备受关注的一个重要领域。对于消费者来说，购车决策不仅涉及到个体交通需求的满足，更关乎投资回报和性价比的考量。为了更深入地探讨和理解汽车市场中的价格形成机制以及性能与价格之间的关系，我们借助了一个经典的数据集——1985 Auto Imports Database。&#xA;数据来源：http://archive.ics.uci.edu/ml/datasets/Automobile&#xA;该数据集源自多方数据渠道，包括1985年Model Import Car and Truck Specifications，个人汽车手册以及保险事故报告等，为我们提供了丰富而全面的汽车信息。通过对汽车的各项特征、保险风险评级以及相对平均损失等数据进行综合分析，我们将尝试建立几个分类模型或回归模型，以汽车详细信息作为输入来准确预测整车的档次或价格。&#xA;摘要 本数据分析报告旨在深入探讨1985年汽车数据集，以揭示其中隐藏的信息和模式。首先，我们进行了数据清洗与整备，包括详细了解数据集信息、预处理数据以及处理缺失值。这确保了我们有一个干净、完整的数据集来进行后续分析。&#xA;在探索性数据分析阶段，我们通过直方图、箱线图和小提琴图等可视化手段，深入研究了响应变量”价格”的分布特征，对不同类别变量进行了对比分析，并通过相关性热图和线性矩阵图揭示了数值型变量之间的关系。&#xA;进一步进行了假设检验，分析了分类问题和回归问题。在分类问题中，我们通过数据预处理和模型性能比较，深入挖掘了不同模型的表现，并通过ROC曲线评估其分类能力。在回归问题中，通过光滑样条拟合、局部多项式和广义可加模型，我们试图找到对”价格”影响最显著的因素。&#xA;最终，通过综合分析和总结，我们得出了对数据集的深刻理解，为进一步研究汽车性能和市场趋势提供了有力的参考。&#xA;数据清洗与整备 library(tidyverse) #核心&#xD;library(tidymodels)&#xD;library(readxl) #读Excel&#xD;library(writexl)#写Excel&#xD;# 绘图用&#xD;library(patchwork) # 将几张图绘制在一起&#xD;library(plotly) # heatmaply前置&#xD;library(viridis) # heatmaply前置&#xD;library(heatmaply) #热图&#xD;library(car) # scatterplotMatrix函数&#xD;library(RColorBrewer) #颜色包&#xD;library(ggpubr)&#xD;#因子分析&#xD;library(psych)&#xD;#相关系数矩阵&#xD;library(corrplot)&#xD;library(tidytext)&#xD;library(tidyverse)&#xD;library(tidymodels)&#xD;library(pheatmap)&#xD;library(corrr)&#xD;library(shiny)&#xD;library(readxl)&#xD;library(writexl)&#xD;library(patchwork) # 将几张图绘制在一起&#xD;library(plotly) # heatmaply前置&#xD;library(viridis) # heatmaply前置&#xD;library(heatmaply) #热图&#xD;library(car) # scatterplotMatrix函数&#xD;library(RColorBrewer) #颜色包&#xD;数据集详细信息 保险风险等级：-3、-2、-1、0、1、2、3 归一化损失：从 65 到 256 连续 品牌： 阿尔法罗梅罗、奥迪、宝马、雪佛兰、道奇、本田、五十铃、捷豹、马自达、梅赛德斯-奔驰、水银、三菱、日产、标致、普利茅斯、保时捷、雷诺、萨博、斯巴鲁、丰田、大众、沃尔沃 燃料类型：柴油、汽油 增压机类型：标准，涡轮 车门数：四门、二门 车身风格：硬顶车、旅行车、轿车、掀背车、敞篷车 驱动轮：四轮驱动、前轮驱动、后轮驱动 发动机位置： 前部、后部 轴距：连续86.</description>
-    </item>
     <item>
       <title>My personal website</title>
       <link>/about/</link>
       <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
       <guid>/about/</guid>
       <description>This Hugo theme was ported from Ivy, a minimalist website generator built in Python. I don&amp;rsquo;t have time to document this theme. You have to read the source code to understand what it can do. All I can say for now is that I love it. It is clean, minimal, and responsive.&#xA;I hope you will enjoy this theme. The source code is on Github. Happy hacking!</description>
+    </item>
+    <item>
+      <title>Automobile Data Analysis</title>
+      <link>/post/2023/12/26/automobile-data-analysis/</link>
+      <pubDate>Tue, 26 Dec 2023 21:13:14 -0500</pubDate>
+      <guid>/post/2023/12/26/automobile-data-analysis/</guid>
+      <description>引言 汽车行业一直以来都是工业和经济领域中备受关注的一个重要领域。对于消费者来说，购车决策不仅涉及到个体交通需求的满足，更关乎投资回报和性价比的考量。为了更深入地探讨和理解汽车市场中的价格形成机制以及性能与价格之间的关系，我们借助了一个经典的数据集——1985 Auto Imports Database。&#xA;数据来源：http://archive.ics.uci.edu/ml/datasets/Automobile&#xA;该数据集源自多方数据渠道，包括1985年Model Import Car and Truck Specifications，个人汽车手册以及保险事故报告等，为我们提供了丰富而全面的汽车信息。通过对汽车的各项特征、保险风险评级以及相对平均损失等数据进行综合分析，我们将尝试建立几个分类模型或回归模型，以汽车详细信息作为输入来准确预测整车的档次或价格。&#xA;摘要 本数据分析报告旨在深入探讨1985年汽车数据集，以揭示其中隐藏的信息和模式。首先，我们进行了数据清洗与整备，包括详细了解数据集信息、预处理数据以及处理缺失值。这确保了我们有一个干净、完整的数据集来进行后续分析。&#xA;在探索性数据分析阶段，我们通过直方图、箱线图和小提琴图等可视化手段，深入研究了响应变量”价格”的分布特征，对不同类别变量进行了对比分析，并通过相关性热图和线性矩阵图揭示了数值型变量之间的关系。&#xA;进一步进行了假设检验，分析了分类问题和回归问题。在分类问题中，我们通过数据预处理和模型性能比较，深入挖掘了不同模型的表现，并通过ROC曲线评估其分类能力。在回归问题中，通过光滑样条拟合、局部多项式和广义可加模型，我们试图找到对”价格”影响最显著的因素。&#xA;最终，通过综合分析和总结，我们得出了对数据集的深刻理解，为进一步研究汽车性能和市场趋势提供了有力的参考。&#xA;数据清洗与整备 library(tidyverse) #核心&#xD;library(tidymodels)&#xD;library(readxl) #读Excel&#xD;library(writexl)#写Excel&#xD;# 绘图用&#xD;library(patchwork) # 将几张图绘制在一起&#xD;library(plotly) # heatmaply前置&#xD;library(viridis) # heatmaply前置&#xD;library(heatmaply) #热图&#xD;library(car) # scatterplotMatrix函数&#xD;library(RColorBrewer) #颜色包&#xD;library(ggpubr)&#xD;#因子分析&#xD;library(psych)&#xD;#相关系数矩阵&#xD;library(corrplot)&#xD;library(tidytext)&#xD;library(tidyverse)&#xD;library(tidymodels)&#xD;library(pheatmap)&#xD;library(corrr)&#xD;library(shiny)&#xD;library(readxl)&#xD;library(writexl)&#xD;library(patchwork) # 将几张图绘制在一起&#xD;library(plotly) # heatmaply前置&#xD;library(viridis) # heatmaply前置&#xD;library(heatmaply) #热图&#xD;library(car) # scatterplotMatrix函数&#xD;library(RColorBrewer) #颜色包&#xD;数据集详细信息 保险风险等级：-3、-2、-1、0、1、2、3 归一化损失：从 65 到 256 连续 品牌： 阿尔法罗梅罗、奥迪、宝马、雪佛兰、道奇、本田、五十铃、捷豹、马自达、梅赛德斯-奔驰、水银、三菱、日产、标致、普利茅斯、保时捷、雷诺、萨博、斯巴鲁、丰田、大众、沃尔沃 燃料类型：柴油、汽油 增压机类型：标准，涡轮 车门数：四门、二门 车身风格：硬顶车、旅行车、轿车、掀背车、敞篷车 驱动轮：四轮驱动、前轮驱动、后轮驱动 发动机位置： 前部、后部 轴距：连续86.</description>
+    </item>
+    <item>
+      <title>ADNI Data Analysis</title>
+      <link>/post/2023/12/22/adni-data-analysis/</link>
+      <pubDate>Fri, 22 Dec 2023 21:13:14 -0500</pubDate>
+      <guid>/post/2023/12/22/adni-data-analysis/</guid>
+      <description>library(readxl)&#xD;library(rcompanion)&#xD;library(readxl)&#xD;library(dplyr)&#xD;library(ellipse)&#xD;library(RColorBrewer)&#xD;library(tidyverse)&#xD;# library(kableExtra)&#xD;library(gt)&#xD;生物标志物的研究 分析框架 knitr::include_graphics(&amp;quot;/pic/tidyverse.png&amp;quot;)&#xD;knitr::include_graphics(&amp;quot;/pic/分析流程.png&amp;quot;)&#xD;fir_files &amp;lt;- list.files(&amp;quot;data/first&amp;quot;, pattern = &amp;quot;\\_31Oct2023.csv$&amp;quot;, full.names = TRUE)&#xD;dig_files &amp;lt;- list.files(&amp;quot;data/Diagnosis&amp;quot;, pattern = &amp;quot;\\_31Oct2023.csv$&amp;quot;, full.names = TRUE)&#xD;psy_files &amp;lt;- list.files(&amp;quot;data/Neuropsychological&amp;quot;, pattern = &amp;quot;\\.csv$&amp;quot;, full.names = TRUE)&#xD;# view(fir_files)&#xD;all_files &amp;lt;- c(fir_files,dig_files,psy_files)&#xD;dir &amp;lt;- read_csv(&amp;quot;data/DATADIC_31Oct2023.csv&amp;quot;) #读入字典&#xD;Total &amp;lt;- list()&#xD;Name &amp;lt;- list()&#xD;# for (i in all_files) {&#xD;# Total[[i]] &amp;lt;- read_csv(i)&#xD;# # Name[[i]] &amp;lt;- colnames(Total[[i]])&#xD;# }&#xD;CT &amp;lt;- read_csv(all_files[1])&#xD;Golden &amp;lt;- read_csv(all_files[6])&#xD;# Total_name&amp;lt;- list()&#xD;# # 新建一个原始顺序数据列表B，其中i位置元素为第i个表的列名数据框&#xD;# B &amp;lt;- list()&#xD;# # for (i in all_files) {&#xD;# B &amp;lt;- as.</description>
     </item>
     <item>
       <title>团委工作述职</title>
@@ -104,7 +111,7 @@
       <link>/pen/%E6%B0%B4%E8%B0%83%E6%AD%8C%E5%A4%B4%E7%99%BE%E6%97%A5%E8%AA%93%E5%B8%88/</link>
       <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
       <guid>/pen/%E6%B0%B4%E8%B0%83%E6%AD%8C%E5%A4%B4%E7%99%BE%E6%97%A5%E8%AA%93%E5%B8%88/</guid>
-      <description>水调歌头·百日誓师 月下弄书简，流水逝韶年。也曾惶恐思量，只为羡鳌间。风雨潇潇魂断，谁管朝朝暮暮，斯人醉中眠。未晓涅槃苦，莫道雪霜寒。 天涯念，蓝图展，梦翩跹。前途遥远，炎黄应把锦衣穿。水水山山袅袅，隐隐迢迢渺渺。纵苦泪三千，但洒汗如雨，任尔夜阑珊。 疫中庆余年，百日正当前。无奈蒙面求索，只因现时艰。网课轰轰烈烈，教师兢兢业业，携尔逆坤乾。不恋衾绣暖，但念知识坚。蟾宫旁，清北梦，二中愿。人生在勤，华夏当书志达篇。宇内铮铮朗朗，落笔洋洋洒洒。立妙笔通天，斩题海生花，扬帆卿云端。</description>
+      <description>水调歌头·百日誓师 高三疫情期间所作，献给我的母校二中。&#xA;月下弄书简，流水逝韶年。也曾惶恐思量，只为羡鳌间。风雨潇潇魂断，谁管朝朝暮暮，斯人醉中眠。未晓涅槃苦，莫道雪霜寒。 天涯念，蓝图展，梦翩跹。前途遥远，炎黄应把锦衣穿。水水山山袅袅，隐隐迢迢渺渺。纵苦泪三千，但洒汗如雨，任尔夜阑珊。&#xA;疫中庆余年，百日正当前。无奈蒙面求索，只因现时艰。网课轰轰烈烈，教师兢兢业业，携尔逆坤乾。不恋衾绣暖，但念知识坚。蟾宫旁，清北梦，二中愿。人生在勤，华夏当书志达篇。宇内铮铮朗朗，落笔洋洋洒洒。立妙笔通天，斩题海生花，扬帆卿云端。</description>
     </item>
     <item>
       <title>Another Note on A blogdown Tutorial</title>

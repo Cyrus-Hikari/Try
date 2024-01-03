@@ -1,7 +1,7 @@
 ---
 title: "Automobile Data Analysis"
 author: "Hikari"
-date: 2024-01-01T21:13:14-05:00
+date: 2023-12-26T21:13:14-05:00
 categories: ["R"]
 tags: ["R Markdown", "plot", "regression"]
 ---
